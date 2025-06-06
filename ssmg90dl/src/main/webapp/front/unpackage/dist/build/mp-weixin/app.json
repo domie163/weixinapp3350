@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/zhongjie/list",
+    "pages/zhongjie/add-or-update",
+    "pages/zhongjie/detail",
+    "pages/fangwuxinxi/list",
+    "pages/fangwuxinxi/add-or-update",
+    "pages/fangwuxinxi/detail",
+    "pages/fangwuleixing/list",
+    "pages/fangwuleixing/add-or-update",
+    "pages/fangwuleixing/detail",
+    "pages/zufangdingdan/list",
+    "pages/zufangdingdan/add-or-update",
+    "pages/zufangdingdan/detail",
+    "pages/zufangxinxi/list",
+    "pages/zufangxinxi/add-or-update",
+    "pages/zufangxinxi/detail",
+    "pages/zufangzhangdan/list",
+    "pages/zufangzhangdan/add-or-update",
+    "pages/zufangzhangdan/detail",
+    "pages/fangyuanguanli/list",
+    "pages/fangyuanguanli/add-or-update",
+    "pages/fangyuanguanli/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "房屋租赁管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#D79468",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fangwuxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "房屋信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
